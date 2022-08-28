@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreenActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVE LIFES APP"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#F40C0C"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/appname"
+        android:textColor="#F40C0C"
+        android:text="A product of Nghia V1.0"
+        android:textSize="12sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"/>
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="400dp"
+        app:lottie_colorFilter="@color/primarycolor"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        app:lottie_autoPlay="true"
+        android:id="@+id/lottie"
+        android:elevation="5dp"
+        app:lottie_rawRes="@raw/splash"/>
+
+</RelativeLayout>

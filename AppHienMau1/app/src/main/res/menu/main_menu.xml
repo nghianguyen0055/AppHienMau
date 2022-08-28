@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/sentEmail"
+        android:icon="@drawable/ic_check"
+        android:title="Các Người Cho Đã Gởi Mail"/>
+
+    <item
+        android:id="@+id/compatible"
+        android:icon="@drawable/compatible"
+        android:title="Tương Thích Với Tôi"/>
+
+    <item
+        android:title="Nhóm Máu">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/aplus"
+                    android:icon="@drawable/aplus"
+                    android:title="A+"/>
+                <item
+                    android:id="@+id/aminus"
+                    android:icon="@drawable/aminus"
+                    android:title="A-"/>
+                <item
+                    android:id="@+id/bplus"
+                    android:icon="@drawable/bplus"
+                    android:title="B+"/>
+                <item
+                    android:id="@+id/bminus"
+                    android:icon="@drawable/bminus"
+                    android:title="B-"/>
+                <item
+                    android:id="@+id/abplus"
+                    android:icon="@drawable/abplus"
+                    android:title="AB+"/>
+                <item
+                    android:id="@+id/abminus"
+                    android:icon="@drawable/abminus"
+                    android:title="AB-"/>
+                <item
+                    android:id="@+id/oplus"
+                    android:icon="@drawable/oplus"
+                    android:title="O+"/>
+                <item
+                    android:id="@+id/ominus"
+                    android:icon="@drawable/ominus"
+                    android:title="O-"/>
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:title="Tính năng">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/profile"
+                    android:icon="@drawable/ic_person"
+                    android:title="Thông Tin cá nhân"/>
+                <item
+                    android:id="@+id/notifications"
+                    android:visible="false"
+                    android:icon="@drawable/ic_baseline_notifications_24"
+                    android:title="Thông Báo"/>
+                <item
+                    android:id="@+id/changePass"
+                    android:icon="@drawable/ic_change"
+                    android:title="Đổi Mật Khẩu"/>
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/ic_power"
+                    android:title="Đăng Xuất"/>
+
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:title="Giới Thiệu">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/about"
+                    android:icon="@drawable/ic_gioithieu"
+                    android:title="Thông Tin App"/>
+                <item
+                    android:id="@+id/share"
+                    android:icon="@drawable/ic_share_24"
+                    android:title="Chia Sẻ"/>
+            </group>
+        </menu>
+    </item>
+</menu>

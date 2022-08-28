@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "584961476497",
+    "project_id": "appthuctap",
+    "storage_bucket": "appthuctap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584961476497:android:a416f76179e1c1284cfc30",
+        "android_client_info": {
+          "package_name": "com.example.apphienmau"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584961476497-mknhem81i7ece7nbjniqkan1loi3ppar.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.apphienmau",
+            "certificate_hash": "d23a03696570b967bd851331ff57d3ac5c64ba57"
+          }
+        },
+        {
+          "client_id": "584961476497-piuebcjkg1f39vnbh64bfiktq5ll1gs9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvkzqDp7ScUQKBieJTV_EVmJJgNFgwVNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584961476497-piuebcjkg1f39vnbh64bfiktq5ll1gs9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
